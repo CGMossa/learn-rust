@@ -13,6 +13,7 @@
 // You should have received a copy of the GNU General Public License
 // along with learn-rust.  If not, see <https://www.gnu.org/licenses/>.
 
+pub mod cache;
 pub mod enum_val;
 pub mod full_qualifier;
 pub mod interior_mut;
@@ -23,3 +24,4 @@ pub mod ref_spec;
 pub mod tuple;
 pub mod turbo_fish;
 pub mod use_trait;
+pub mod const_generic_workaround;
